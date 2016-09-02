@@ -3,17 +3,21 @@
  */
 public class Par {
 
-    private int first;
-    private int second;
+    A first;
+    B second;
 
-    public Par(int i, int i1) {
+    public Par(A first, B second) {
+        this.first=first;
+        this.second=second;
     }
 
-    public int first() {
+    public A first() {
         return this.first;
     }
 
-    public int second() {
+    public B second() {
         return this.second;
     }
+
+
 }

@@ -2,14 +2,12 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
  * Created by damian on 26/08/16.
  */
 public class RectanguloTest {
-
 
     @Test
     public void crearRectangulo(){
@@ -51,6 +49,7 @@ public class RectanguloTest {
 
         Assert.assertEquals(316, c.sumarAreasDeFiguras(rectangulos),0);
     }
+
 
 
 }
